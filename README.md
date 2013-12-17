@@ -26,13 +26,13 @@ The most basic usage of duckbill uses the following syntax, it assumes that plat
 Other options:
 
 * -v | --verbose
-	> Enable the verbose flag for extra messaging
+	Enable the verbose flag for extra messaging
 * --manager [HOST]:[PORT]
-	> Your running platypus instance for marking hosts to target for exploitation 
+	Your running platypus instance for marking hosts to target for exploitation 
 * --sleep
-	> Amount of time (in seconds) to wait before calling back to platypus to determine whether or not to move to the new target
+	Amount of time (in seconds) to wait before calling back to platypus to determine whether or not to move to the new target
 * --ttl
-	> Amount of time (in seconds) to run a MitM against a single host
+	Amount of time (in seconds) to run a MitM against a single host
 
 Future work
 ===========
